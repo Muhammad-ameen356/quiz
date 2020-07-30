@@ -1,0 +1,101 @@
+/* FIRST PAGE */
+
+.center {
+    padding: 270px 0;
+    border: none;
+    text-align: center;
+    background-image: url(image/quiz2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center .button a button {
+    width: 230px;
+    height: 80px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: 3px solid orange;
+    transition: 0.3s;
+}
+
+.center .button a button:hover {
+    background-color: rgb(136, 0, 0);
+    color: white;
+    border: 7px solid rgb(255, 255, 255);
+}
+
+.center button:focus {
+    outline: none;
+}
+
+.animate__animated.animate__heartBeat {
+    --animate-duration: 1s;
+}
+
+
+/* _________________________________ */
+
+
+/* First Quiz */
+
+.aaa {
+    border: 6px solid #5a3e26;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+.aaa h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.aaaa {
+    border: 3px solid #5a3e26;
+    padding: 5px;
+}
+
+.aaa .aaaa .clearfix .img2 {
+    float: right;
+}
+
+.aaa .aaaa .clearfix {
+    overflow: auto;
+}
+
+
+/* ________________________________ */
+
+input p {
+    width: 30px;
+    font-size: 70px;
+}
+
+p {
+    font-size: 23px;
+    text-transform: capitalize;
+    font-family: 'Arvo', serif;
+}
+
+.botton {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .aaa .aaaa .clearfix .img2 {
+        float: right;
+        width: 100px;
+    }
+    .center {
+        /* padding: 270px 0; */
+        border: none;
+        text-align: center;
+        background-image: url(image/quiz2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
